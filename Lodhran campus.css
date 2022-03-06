@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: fantasy;
+   
+    
+}
+/* Hero section */
+.hero{
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+
+.hero,h5{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.manue{
+    width: 100%;
+    background: rgb(4, 4, 87);
+    height: 90px;
+    margin-top: 30px;
+    
+
+
+}
+.manue,form{
+    text-align: center;
+    padding-top: 5px;
+}
+.box{
+    width: 100%;
+    height: 1000px;
+    box-sizing: border-box;
+    background: gray;
+    margin-top: -333px;
+    
+    
+}
+.box,h1{
+    text-align: center;
+    padding-top: 190px;
+    
+}
+ .form,button{ 
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 5px 10px 5px;
+     margin: 15px 5px 0px 5px;
+    color: gray;
+
+
+}
+/* .box1{ 
+    width: 120px;
+    height: 120px;
+    border: 2px solid green;
+    border-radius: 10pc;
+    background-color: rgb(14, 14, 80);
+    margin-left: 480px;
+    margin-top: 70px;
+    } 
+.box1,h3{
+    padding-top: 20px;
+    color: white;
+    font-family: courier;
+    
+}*/
+
+/* .box2{ 
+    width: 120px;
+    height: 120px;
+    border: 2px solid green;
+    border-radius: 10pc;
+    background-color: rgb(14, 14, 80);
+    margin-left: 520px;
+    margin-top: -65px;
+    }
+.box2,h3{
+    padding-top: 20px;
+    color: white;
+    font-family: courier;
+    
+}*/
+.box3{
+    width: 120px;
+    height: 120px;
+    /* border: 2px solid green; */
+    border-radius: 10pc;
+    /* background-color: rgb(14, 14, 80); */
+    margin-left: 560px;
+    margin-top: 25px;
+    }
+.box3,h6{
+    padding-top: 15px;
+    color: white;
+    font-family: courier;
+    
+}
+.box4{
+    width: 120px;
+    height: 120px;
+    /* border: 2px solid green; */
+    border-radius: 10pc;
+    /* background-color: rgb(14, 14, 80); */
+    margin-left: 680px;
+    margin-top: -25px;
+    }
+.box4,h6{
+    padding-top: 20px;
+    color: white;
+    font-family: courier;
+    font-size: 15px;
+    
+}
+.box5{
+    width: 120px;
+    height: 120px;
+    border: 2px solid green;
+    border-radius: 10pc;
+    background-color: rgb(14, 14, 80);
+    margin-left: 765px;
+    margin-top: -70px;
+    }
+    .box5,h6{
+        padding-top: 20px;
+        color: white;
+        font-family: courier;
+        font-size: 15px;
+        
+    }
+    
+.box6{
+    width: 120px;
+    height: 120px;
+    
+    border-radius: 10pc;
+    margin-left: 815px;
+    margin-top: -180px;
+    }
+    .box6,h6{
+        padding-top: 20px;
+        color: white;
+        font-family: courier;
+        font-size: 15px;
+        
+    }
+    .box7{
+        width: 120px;
+        height: 120px;
+
+        border-radius: 10pc;
+
+        margin-left: 870px;
+        margin-top: -180px;
+        }
+        .box7,h6{
+            padding-top: 20px;
+            color: white;
+            font-family: courier;
+            font-size: 15px;
+            }
+            .container{
+                height: 500px;
+                width: 400px;
+                float: right;
+                
+                margin-top: -460px;
+                background-image: url(flower.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 6s;
+                animation-name: animate;
+                animation-duration: 60s;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+                animation-play-state: running;
+                animation-timing-function:ease-in-out;
+            
+            }
+            @keyframes animate{
+                0%{
+                    background-image: url(wel1.jpg);
+                }
+                10%{
+                    background-image: url(13.jpg);
+                }
+                15%{
+                    background-image: url(23.jpg);
+                }
+                20%{
+                    background-image: url(11.jpg);
+                }
+                25%{
+                    background-image: url(4.jpg);
+                }
+                30%{
+                    background-image: url(5.jpg);
+                }
+                35%{
+                    background-image: url(6.jpg);
+                }
+                40%{
+                    background-image: url(7.jpg);
+                }
+                45%{
+                    background-image: url(8.jpg);
+                }
+                50%{
+                    background-image: url(9.jpg);
+                }
+                65%{
+                    background-image: url(10.jpg);
+                }
+                75%{
+                    background-image: url(24.jpg);
+                }
+                85%{
+                    background-image: url(12.jpg);
+                }
+            }
+            
+            .container1{
+                height: 500px;
+                width: 400px;
+                float: left;
+                margin-top: -460px;
+                background-image: url(flower.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 6s;
+                animation-name: animate;
+                animation-duration: 60s;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+                animation-play-state: running;
+                animation-timing-function:ease-in-out;
+            
+            }
+            @keyframes animate{
+                0%{
+                    background-image: url(wel1.jpg);
+                }
+                10%{
+                    background-image: url(13.jpg);
+                }
+                15%{
+                    background-image: url(23.jpg);
+                }
+                20%{
+                    background-image: url(11.jpg);
+                }
+                25%{
+                    background-image: url(4.jpg);
+                }
+                30%{
+                    background-image: url(5.jpg);
+                }
+                35%{
+                    background-image: url(6.jpg);
+                }
+                40%{
+                    background-image: url(7.jpg);
+                }
+                45%{
+                    background-image: url(8.jpg);
+                }
+                50%{
+                    background-image: url(9.jpg);
+                }
+                65%{
+                    background-image: url(10.jpg);
+                }
+                75%{
+                    background-image: url(11.jpg);
+                }
+                85%{
+                    background-image: url(12.jpg);
+                }
+                
+            }
+
+            .team{
+                padding-top: -30px;
+                padding-bottom: 100px;
+                background-color: gray;
+                width: 100%;
+                text-align: center;
+                height: 400px;
+            }
+            .team-wrapper{
+                width: 90%;
+                padding-top: -50px;
+                margin-left: 250px;
+            
+            }
+            .col-team{
+                width: 33.33%;
+                float: left;
+                padding: 10px 30px  10px 30px ;
+            }
+            .col-team,img{
+                width: 230px;
+                margin-left: 70px;
+                margin-top: 50px;
+                max-width: 300%;
+                
+                }
+            .tcol{
+                max-width: 200px;
+                max-height: 170px;
+                border: 1 px solid black;
+                color: red;
+            
+                
+            }
+            .team-wrapper::after{
+                clear: both;
+                content: "";
+                display: table;
+            }
+            .col-team,p{
+            padding-top: -65px;
+            padding-left:120px ;
+            color: white;
+            }
+            .col-team,h3{
+                
+            padding-left: 140px;
+            color: green;
+            }
+            .contact{
+                background-color: hsl(0,0%, 95%);
+                width: 100%;
+                padding: left 140px; ;
+            }
+            .cta{
+                background-color: yellow;
+                width: 100%;
+                height: 300px;
+                padding: 30px 5px 30px 5px;
+                text-align: center;
+            }
+            .cta-col{
+                width: 33.33%;
+                float: left;
+            }
+            .cta::after{
+                content:"";
+                clear: both;
+                display: table;
+            }
+            .pakistan{
+                width: 200px;
+                height: 200px;
+                float: right;
+                border: 2px solid black;
+                
+            }
+            
+            
+            
+            
+
+
+
+
