@@ -1,116 +1,59 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
-<title>My First Website</title>
- 
-<link rel="stylesheet" href="styles.css">
-<meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="dom.js" ></script>
+    
+    
+    <title>Calculator</title>
 </head>
 <body>
-   <section class="hero">
-    <img src="society.jpg" alt="image not found" width="500px" height="300px">
-    
-        <h1>WONDERFUL AGENCY</h1>
-        <h3>Leading Web Solutions Agency</h3>
-        <h5>on planet</h5>
-    </section>
-    <nav style="padding-bottom: 40px;" class="manue">
-         <ul >
-             <li><a href="">HOME</a></li>
-             <li><a href="">About</a></li>
-             <li><a href="">Services</a></li>
-             <li><a href="">Portfolio</a></li>
-             <li><a href="">Contact</a></li>
-         </ul>
-    </nav>
-    <section class="services">
-              <h1>Services</h1>
-              <div class="col-wrapper">
-                  <div class="services-col">
-                  <img style="width: 200px; height: 200px; margin-top: 50px;" src="web development.jfif" alt="">
-                  <h2 style="color: green; margin-top: 50px;">Web development</h2>
-                  <p class="services-content">
-                    Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. 
-                  </p>
-              </div>
-              <div class="services-col">
-                <img style="width: 200px; height: 200px; margin-top: 50px;" src="amazone.png" alt="">
-                <h2 style="color: green;">amazon CloudFront</h2>
-                <p class="services-content">The highly profitable division of Amazon provides servers, storage, networking, remote computing, email, mobile development, and security
-              
-                </p>
-            </div>
-            <div class="services-col">
-                <img style="width: 200px; height: 200px; margin-top: 50px; " src="ecomerce.jpg" alt="">
-                <h2 style="color: green;">E-Commerce</h2>
-                <p class="services-content">
-                    It is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet. It means business transactions through the internet, telephone, credit card, etc
-
-              
-                </p>
-            </div>
-    </section>
-<section class="aboutus">
-        <h1 style="margin-right: 390px;">About Us</h1>
-        <p class="aboutus-content">We are excited to announce that ITDS Orientation Seminar is going to be held in our Computer Lab soon💫. We are going to be in a skilled brains collaborative enviroment. In the seminar whole process of society will be annouced and discussed. ITDS(Information Technology Department Society) is going to be Digital Hub Of Southern Punjab. Students of Southern Punjab Lodhran are going to Compete Upper Punjab Or Pakistan's others so called Top Ranked IT Universities. Guys you people are not less than anyone of less. We have highly professional well experienced teachers and skilled seniors and students as well as a Modern Computer Lab. This is the time for implementation.  Here's the links for ITDS: 
-        </p>
-        <button class="about-button">
-                 Read More 
-        </button>
-</section>
-<section class="team">
-    <h1 style="margin-top: -20px;">
-        Our Team
-    </h1>
-     <div class="team- wrapper">
-           <div class="col-team">
-               <center>
-                  <div class="tcol">
-                      <img src="Hassan Malik.jfif" alt="">
-                       <h3>Hassan Malik</h3>
-                        <p>Web Developer</p>
-                  </div>
-                </center>
-           </div>
-           <div class="col-team">
-            <center>
-            <div class="tcol">
-                <img src="team photo.jpg" alt="">
-                 <h3>Hanzala Sadaqat</h3>
-                  <p>Amazon Virtual Assistan</p>
-            </div>
-        </center>
-     </div>
-     <div class="col-team">
-        <center>
-        <div class="tcol">
-            <img src="junaid.jpg" alt="image not found" width="250px" height="250px">
-             <h3>Junaid Qasim</h3>
-              <p>Business Analysts</p>
-        </div>
-    </center>
- </div>
-     </div>
-</section>
-<section class="contact">
-    <div class="cta">
-        <div class="cta-col">
-             <i class="fa fa-envelope-open-o fa-4x " aria-hidden="true"></i>
-             <h3>info@email.com</h3>
-        </div>
-        <div class="cta-col">
-            <i class="fa fa-envelope-open-o fa-4x" aria-hidden="true"></i>
-            <h3>03123456789</h3>
-       </div>
-       <div class="cta-col">
-        <i class="fa fa-envelope-open-o fa-4x" aria-hidden="true"></i>
-        <h3>info@email.com</h3>
-   </div>
+    <div class="container">
+        <h1>Calculator</h1>
+        
     </div>
-</section>
+    <div class="calculator">
+        <input type="text" name="screen" id="screen">
+    <table>
+        <tr>
+            <td><button>(</button></td>
+            <td><button>)</button></td>
+            <td><button>C</button></td>
+            <td><button>%</button></td>
+        </tr>
+        
+        <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td><button>X</button></td>
+        </tr>
+        
+        <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            <td><button>-</button></td>
+        </tr>
+        
+        <tr>
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            <td><button>+</button></td>
+        </tr>
+        
+        <tr>
+            <td><button>0</button></td>
+            <td><button>.</button></td>
+            <td><button>/</button></td>
+            <td><button>=</button></td>
+        </tr>
+    </table>
+</div>
 </body>
-
-
-
-</html>
+<script src="index.js"> </script>
+</html> 
