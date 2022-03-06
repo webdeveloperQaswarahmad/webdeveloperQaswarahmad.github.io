@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lo,img{
+width: 100%;
+background-size: cover;
+
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+main{
+    width: 100%;
+    margin: 50% auto;
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.div1{background-color: green;}
+.div2{background-color: yellow;}
+.div3{background-color: aqua;}
+.div4{background-color: lightcoral;}
+.div5{background-color: gray;}
