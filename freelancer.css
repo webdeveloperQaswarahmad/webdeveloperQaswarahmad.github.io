@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container,img{
+    width: 80%;
+    height: 40vh;
+    text-align: center;
+    margin-left: 9%;
+   box-sizing: border-box;
+}
+.container1{
+    width: 64%;
+    margin-top: 49px;
+    background-color:rgb(174, 196, 209);
+    height: 500px;
+    /* margin-top: -40px; */
+    margin-left: 20.6%;
+    box-sizing: border-box;
+}
+.container1,h1{
+    padding-left: 75px;
+    margin-top: -220px;
+    box-sizing: border-box;
+    color: white;
+}
+.container1,p{
+    width: 64%;
+    box-sizing: border-box;
+    padding-left: 10%;
+}
+button{
+    border-radius: 3pc;
+    margin-left: 75%;
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+ .box{
+    margin-top: -22%;
+    font-size: 30px;
+} 
+a{
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    color: white;
+}
+.Qaswar{
+    width: 300px;
+    height: 250px;
+    margin: 85px 0px 70px -110px;    
+}
+.Qaswar1{
+    background: white;
+    margin-top: -325px;
+    width: 400px;
+    margin-left: 200px;
+    height: 200px;
+    border-radius: 3pc;
+    padding: 20px;      
+}
+.Qaswar3{
+    text-align: center; 
+    margin-top: -38%;
+     color: white;
+}
+.Qaswar4{
+    width:70%;
+    padding-top: 0px;
+    padding-left: 26%;
+    color: white;
+}
+.Qaswar5{
+    
+    background: green;
+    margin-top: 50px;
+    width: 400px;
+    margin-left: 330px;
+    height: 200px;
+    border-radius: 3pc;
+    padding: 20px;      
+}
+.Qaswar6{
+    
+    margin-top: -250px;
+    width: 400px;
+    margin-left: 750px;
+    height: 200px;
+    
+    padding: 20px;     
+}
+.footer{
+    
+    background: black;
+    margin-top: 20px;
+    width: 63.8%;
+    margin-left: 280px;
+    height: 120px;
+    }
+    @media screen and (max-width:480) {
+        .container{
+            background-color: blue;
+        }
+    }

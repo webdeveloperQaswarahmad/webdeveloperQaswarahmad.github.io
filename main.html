@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+.sidenav {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right: 150px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+  
+  
+</head>
+<body>
+    <main style="float: right;margin: 20px 125px 0px 0px;">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="Home.html">Home</a>
+          <a href="Register1.html"> Our Services</a>
+          <a href="Register.html">Mid Term</a>
+          <a href="#">Contact</a>
+        </div>
+        
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+        </main>
+        
+    <section class="hero">
+        <pre>
+        <h1> Digital Technology 
+            Learn With Us
+        </h1> 
+        </pre>
+        <p>This is our core value of the company.We believe the best investment is to invest in ourselves and perform as best we can.We consider productivity is everything a business needs and that is what differentiates us from others. </p>
+ </section>
+ <main class="box">
+<div class="box1">
+<img src="cover4.jfif" alt="">
+</div>
+<div class="box2">
+<h2>About Me</h2>
+<p1>I like to read, I like to write; I like to think, i like to dream; I like to talk, I like to listen, I like to see the sunrise in the morning.
+    I am proud of myself,  I am making a differece. I am happy and grateful ;  I am making my time count. I am honest with myself. I am goot to those I care about. </p1>
+</div>
+ </main>
+ 
+<div class="box3">
+    <div class="center">
+<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatum nihil fuga veritatis accusamus odio veniam inventore eligendi rerum modi.</span>
+    </div>
+    <div class="left">
+<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod voluptatem molestias dignissimos in laboriosam perferendis tenetur quam culpa placeat! Debitis reprehenderit iusto assumenda minus odit magni illo, sint voluptate.</span>
+    </div>
+    <div class="right">
+<span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur id, repudiandae voluptatum dicta alias cum praesentium dolores atque ducimus quibusdam?</span>
+    </div>
+</div>
+<footer class="footer1">
+    <p style="color: gray; margin: auto;">2022 @ Copyrights Digital Technology With Us</p>
+ </footer>
+
+</body>
+</html>
