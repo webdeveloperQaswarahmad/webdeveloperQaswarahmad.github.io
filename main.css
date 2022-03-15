@@ -79,7 +79,7 @@ h2{
 }
 .box3{
     width: 100%;
-    height: 37vh;
+    height: 53vh;
     background-color: chocolate;
     padding-top: 200px;
 }
@@ -188,7 +188,7 @@ h2{
 @media screen and (max-width:480px){
     .box3{
         width: 100%;
-        height: 209vh;
+        height: 159vh;
         background-color: chocolate;
         padding-top: 200px;
     }
