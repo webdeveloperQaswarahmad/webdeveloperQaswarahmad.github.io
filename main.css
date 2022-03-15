@@ -157,7 +157,7 @@ h2{
         background-color: gray;
         margin: auto;
         margin-top: -154px;
-        margin: -87px -16px -115px 102px;
+        margin: -87px -16px -115px 3px;
     }
 }
 @media screen and (max-width:480px){
@@ -180,7 +180,7 @@ h2{
         border-radius: 15%;
         background-color: green;
         margin: auto;
-        margin-right: 74px;
+        margin-right: 20px;
         margin-top: 52px;
         padding: 64px 0px 0px 0px ;
     }
