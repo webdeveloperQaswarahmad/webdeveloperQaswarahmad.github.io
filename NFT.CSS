@@ -89,7 +89,7 @@ nav{
 
 
 
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     .img-thumbnail{
         width: 20px;
         height: 20px;
@@ -99,7 +99,7 @@ nav{
     }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     .display-4{
         width: 10px;
         height: 10px;
@@ -109,7 +109,7 @@ nav{
     }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     .display-6 {
         color: wheat;
         padding-top: 91px;
@@ -120,7 +120,7 @@ nav{
         width: 20%;
     }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     .form-inline {
         width: 140px;
         margin-top: -25px;
@@ -129,7 +129,7 @@ nav{
 }
 
 
-    @media screen and (max-width:320px){
+    @media screen and (max-width:360px){
         .container {
             color: white;
             width: 114%;
@@ -141,7 +141,7 @@ nav{
             margin-top: -19px;
         }
     }
-    @media screen and (max-width:320px){
+    @media screen and (max-width:360px){
         .container1 {
             font-size: 8px;
             color: white;
@@ -156,7 +156,7 @@ nav{
         }
         
     }
-    @media screen and (max-width:320px){
+    @media screen and (max-width:360px){
         .input-group .btn {
             position: relative;
             z-index: 2;
@@ -168,7 +168,7 @@ nav{
         
         }
     }
-    @media screen and (max-width:320px){
+    @media screen and (max-width:360px){
     .input-group {
         position: relative;
         display: flex;
@@ -178,10 +178,18 @@ nav{
         margin-top: -79px;
     }
     }
-    @media screen and (max-width:320px){
+    @media screen and (max-width:360px){
     .input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         font-size: 6px;
     }
+}
+
+
+    @media screen and (max-width:360px){
+.p-3{
+width: 100%;
+height: 60px;
+}
 }
