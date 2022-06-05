@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://lms.eocc.pk/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="Refresh" content="5;url=https://eocc.teachable.com/p/everyone-can-code">
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .bgimg {
+        background-image: url('4.jpg');
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+      }
+      
+      .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+      }
+      
+      .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+      }
+      
+      .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      hr {
+        margin: auto;
+        width: 40%;
+      }
+    </style>
+  <title>Everyone Can Code</title></head>
+
+<body>
+
+<div class="bgimg" id="bgimg" style="background-image: url(&quot;1.jpg&quot;);">
+  <div class="topleft">
+    <!-- <p id="eocc">Everyone Can Code</p> -->
+  </div>
+  <div class="middle">
+    <h1 id="message" style="color: rgb(135, 10, 223);">انسان کو کچھ نہیں ملے گا جب تک وہ محنت نہ کرے۔</h1>
+    <hr>
+  </div>
+</div>
+
+<script>
+    var messages = ["اللہ پر یقین رکھیں، اپنے آپ پر یقین رکھیں۔ انشاء اللہ آپ کامیاب ہوں گے۔",
+              "جدوجہد جاری رکھیں، آپ کی کوششیں کبھی رائیگاں نہیں جائیں گی۔",
+              "اللہ نیکی کرنے والوں کا اجر ضائع نہیں کرتا۔", 
+              "بے شک اللہ کسی قوم کی حالت اس وقت تک نہیں بدلتا جب تک وہ اپنی حالت خود نہ بدلیں۔",
+              "انسان کو کچھ نہیں ملے گا جب تک وہ محنت نہ کرے۔",
+              "تو بیشک مشکل کے ساتھ آسانی ہے۔"];
+    
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('message').style.color= "#" + randomColor; 
+    document.getElementById('message').innerHTML = messages[Math.floor(Math.random() * messages.length)];
+
+    var images = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"];
+    var img = images[Math.floor(Math.random() * images.length)];
+    document.getElementById('bgimg').style.backgroundImage="url("+img+")";
+
+</script>
+
+
+
+</body></html>
